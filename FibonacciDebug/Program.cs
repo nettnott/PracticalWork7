@@ -3,6 +3,11 @@ using System;
 int result = Fibonacci(5);
 Console.WriteLine(result);
 
+///<summary>
+///Вычисляет n-ное число последовательности Фибоначчи
+///</summary>
+///<param name="n">Номер элемента последовательности</param>
+/// <returns>Значение элемента номер n последовательности Фибоначчи</returns>
 static int Fibonacci(int n)
 {
     Console.WriteLine("The output is: ");
